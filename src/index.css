@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to right,
+    rgb(31, 180, 175),
+    rgb(255, 255, 255)
+  );
+}
+
+code {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.main {
+  width: 50%;
+  margin: 10% auto;
+}
+
+.im_container {
+  text-align: start;
+  justify-content: start;
+  display: flexbox;
+  font-size: 30px;
+}
+
+.in_container {
+  text-align: start;
+  justify-content: start;
+  display: flex;
+  margin-bottom: 50px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.input_container {
+  display: flex;
+  justify-content: start;
+}
+
+.input_in_container {
+  display: flex;
+  gap: 200px;
+}
+
+.todo_item {
+  margin: 10px;
+  margin-left: -150px;
+}
